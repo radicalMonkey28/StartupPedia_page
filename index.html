@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saffron Farming Workshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              xs: "480px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-black text-white min-h-screen bg-[url('/g.png')] bg-no-repeat bg-cover bg-center"
+  >
+    <!-- Navigation Bar -->
+    <nav
+      class="flex justify-between items-center p-4 max-w-5xl -mt-7 mx-auto relative"
+    >
+      <!-- Logo Image -->
+      <a href="#" class="flex items-center">
+        <img
+          src="logo pedia .... new size-01.png"
+          alt="Shubhavni SmartFarms Logo"
+          class="h-28 object-contain"
+        />
+      </a>
+
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="text-white mt-2">Contact Us</a>
+        <a href="https://payments.cashfree.com/forms/startuppedia" target="_blank" rel="noopener noreferrer" class="bg-cyan-500 text-white px-4 py-2 rounded-lg"
+          >Register Now</a
+        >
+      </div>
+
+      <!-- Hamburger Menu -->
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-white text-2xl focus:outline-none">
+          ☰
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="menu"
+        class="hidden absolute top-14 right-4 bg-gray-800 text-white flex flex-col space-y-4 p-4 rounded-lg shadow-lg w-40"
+      >
+        <button id="close-btn" class="self-end text-xl">✖</button>
+        <a href="#" class="text-white">Contact Us</a>
+        <a
+          href="https://payments.cashfree.com/forms/startuppedia" target="_blank" rel="noopener noreferrer"
+          class="bg-blue-400 text-white px-4 py-2 rounded-lg text-center"
+          >Register Now</a
+        >
+      </div>
+    </nav>
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+      const closeBtn = document.getElementById("close-btn");
+
+      menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menu.classList.add("hidden");
+      });
+    </script>
+
+
+
+
+    <!-- Hero Section -->
+    <section
+class="bg-gradient-to-br from-cyan-500 to-sky-800 -mt-10 text-white rounded-2xl max-w-6xl mx-6 sm:mx-8 md:mx-10 lg:mx-auto shadow-lg">
+  <div
+    class="flex flex-col md:flex-row p-4 sm:p-10 md:p-14 lg:p-8 justify-between items-center md:items-stretch gap-6"
+  >
+    <!-- Left Section: Heading, Description, Date, CTA -->
+    <div class="md:w-2/3 flex flex-col justify-between gap-6">
+      <div>
+        <h1 class="text-2xl md:text-4xl font-bold text-black mb-6">
+          How to start indoor Saffron Farming - A complete Roadmap
+        </h1>
+        <p class="text-sm w-full  md:w-3/4 mb-0">
+          Join a comprehensive 2-day workshop led by
+        Ankit Bhatnagar of
+        Shubhavni Smartfarms
+          and gain practical insights into setting up and scaling a
+          profitable saffron farming business.
+        </p>
+      </div>
+
+      <div class="text-center md:text-left">
+        <p class="md:text-md bg-black text-white text-sm px-3 mb-2 py-2 rounded-full shadow-[0_8px_12px_rgba(0,0,0,0.3)] mx-auto md:mx-0-mt-2 md:mr-80
+">
+        🗓️  10th & 11th May&nbsp; |&nbsp; 🕑 12:00 PM - 02:00 PM
+        </p>
+        <a
+          href="#register"
+          class="bg-black text-white text-md px-4 py-2  mt-2 rounded-full shadow-[0_8px_12px_rgba(0,0,0,0.3)]  inline-block mx-auto md:mx-0"
+          >🌐 Online Workshop</a
+        >
+      </div>
+    </div>
+
+    <!-- Right Section: Image Placeholder -->
+    <div
+      class="md:w-1/3 h-64 md:h-auto flex items-center justify-center bg-white/10 rounded-xl overflow-hidden mx-auto md:mx-0"
+    >
+      <img
+        src="saffron1-1713439645.jpg"
+        alt="Saffron Farming"
+        class="w-full h-full object-cover rounded-xl"
+      />
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    
+
+
+
+
+    <!-- Who Should Join Section -->
+
+    <section class="bg-black py-1">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-white text-2xl md:text-4xl mt-5 md:mt-5 font-bold text-center mb-8">
+      Who is eligible for this workshop?
+    </h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+      <!-- Card 1 -->
+      <div
+        class="bg-transparent rounded-xl shadow-lg shadow-white/30 border-2 border-cyan-500 flex flex-col items-center text-center p-6 h-full transform transition duration-700 ease-in-out hover:-translate-y-2 hover:shadow-white/50 animate-fade-up max-w-[250px] mx-auto w-full"
+      >
+        <img
+          src="grad.jpg"
+          alt="Startup Icon"
+          class="w-20 h-20 rounded-lg mb-1"
+        />
+        <h3 class="text-xl font-semibold mb-2">Aspiring Agripreneurs</h3>
+        <p class="text-gray-500 text-sm">
+          Wanting to tap into the lucrative saffron farming business.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="bg-transparent rounded-xl shadow-lg shadow-white/30 border-2 border-cyan-500 flex flex-col items-center text-center p-6 h-full transform transition duration-700 ease-in-out hover:-translate-y-2 hover:shadow-white/50 animate-fade-up delay-100 max-w-[250px] mx-auto w-full"
+      >
+        <img
+          src="ceo.png"
+          alt="CEO Icon"
+          class="w-20 h-20 rounded-lg mb-4"
+        />
+        <h3 class="text-xl font-semibold mb-2">Agriculture Enthusiasts</h3>
+        <p class="text-gray-500 text-sm">
+          Looking to diversify and explore high-value crops.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="bg-transparent rounded-xl shadow-lg shadow-white/30 border-2 border-cyan-500 flex flex-col items-center text-center p-6 h-full transform transition duration-700 ease-in-out hover:-translate-y-2 hover:shadow-white/50 animate-fade-up delay-200 max-w-[250px] mx-auto w-full"
+      >
+        <img
+          src="corp.png"
+          alt="Corporate Icon"
+          class="w-20 h-20 rounded-lg mb-4"
+        />
+        <h3 class="text-xl font-semibold mb-2">Corporate Employees</h3>
+        <p class="text-gray-500 text-sm">
+          Working professionals looking for a side hustle. 
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div
+        class="bg-transparent rounded-xl shadow-lg shadow-white/30 border-2 border-cyan-500 flex flex-col items-center text-center p-6 h-full transform transition duration-700 ease-in-out hover:-translate-y-2 hover:shadow-white/50 animate-fade-up delay-300 max-w-[250px] mx-auto w-full"
+      >
+        <img
+          src="idea.jpg"
+          alt="Students Icon"
+          class="w-20 h-20 rounded-lg mb-4"
+        />
+        <h3 class="text-xl font-semibold mb-2">Home Makers</h3>
+        <p class="text-gray-500 text-sm">Interested in earning from home</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div
+        class="bg-transparent rounded-xl ml-20 md:ml-0 lg:ml-0 sm:ml-0 shadow-lg shadow-white/30 border-2 border-cyan-500 flex flex-col items-center text-center p-6 h-full transform transition duration-700 ease-in-out hover:-translate-y-2 hover:shadow-white/50 animate-fade-up delay-300 max-w-[250px] mx-auto w-full"
+      >
+        <img
+          src="idea.jpg"
+          alt="Students Icon"
+          class="w-20 h-20 rounded-lg mb-1"
+        />
+        <h3 class="text-xl font-semibold mb-2">Urban Gardeners</h3>
+        <p class="text-gray-500 text-sm">
+          Anyone who want sto start a low-risk, high-reward venture.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Workshop Curriculum -->
+    <style>
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in-up {
+        animation: fadeInUp 1s ease-out forwards;
+      }
+
+      .scroll-animation {
+        opacity: 0;
+      }
+    </style>
+
+    <!-- Workshop Curriculum Section -->
+    <section
+      class="fade-in-start text-white py-1 px-4 mt-10 scroll-animation"
+      data-animation="fade-in-up"
+    >
+      <!-- Title -->
+      <div
+        class="text-center mb-10 scroll-animation"
+        data-animation="fade-in-up"
+      >
+        <h2 class="text-2xl font-medium">
+          What will you learn during this workshop?
+        </h2>
+        <p class="text-gray-400 text-sm mt-2">
+          Our carefully designed program takes you through every step of
+          successful saffron cultivation.
+        </p>
+      </div>
+
+      <!-- Curriculum Boxes - Grid Layout -->
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Day 1 Card -->
+        <div
+          class="border border-[#02B4DC] shadow-white/30 rounded-xl p-8 shadow-lg"
+        >
+          <h2 class="font-bold text-2xl text-center mb-6">Day 1</h2>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span>Understanding the basics of saffron farming</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span>Setting up an indoor saffron farm</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span>Financing and Legal Structures</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span
+                >Choosing high-quality saffron corms and preparing them for
+                cultivation</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Day 2 Card -->
+        <div
+          class="border border-[#02B4DC] shadow-white/30 rounded-xl p-8 shadow-lg"
+        >
+          <h2 class="font-bold text-2xl text-center mb-6">Day 2</h2>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span
+                >Growth cycle and maintenance of the sprouting saffron
+                corms</span
+              >
+            </li>
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span
+                >Harvesting and processing techniques to maintain saffron
+                quality</span
+              >
+            </li>
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span>Bulb propagation & preparation for the next cycle</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <img src="tick.png" alt="tick" class="w-5 h-5 mt-1" />
+              <span>Marketing & Sales Strategies</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll Animation Script -->
+    <script>
+      const elements = document.querySelectorAll(".scroll-animation");
+
+      const animationObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const anim = entry.target.getAttribute("data-animation");
+              entry.target.classList.add(anim);
+              animationObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      elements.forEach((el) => animationObserver.observe(el));
+    </script>
+
+
+
+
+
+
+
+
+    <!-- Instructor Section -->
+    <section class="bg-black text-white px-6 sm:px-10 md:px-16 lg:px-24 py-1">
+      <div
+        class="max-w-6xl mx-auto text-center opacity-0 md:mb-8  transform translate-y-5 transition-all duration-700"
+        id="instructorHeading"
+      >
+        <h2 class="text-3xl sm:text-2xl font-light">Know Your Instructor</h2>
+        <p class="text-sm text-gray-300 mt-1 font-extralight">
+          Learn from a recognized expert in saffron cultivation
+        </p>
+      </div>
+
+      <div
+        class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-14 mt-0 py-8 md:px-20 opacity-0 transform translate-y-10 transition-all duration-700 delay-200"
+        id="instructorContent"
+      >
+        <!-- Instructor Image -->
+        <div class="w-36 sm:w-72 md:w-56  mt-2 flex-shrink-0 ">
+          <img
+            src="image2.png"
+            alt="Ankit Bhatnagar"
+            class="w-full rounded-lg shadow-lg"
+          />
+        </div>
+
+        <!-- Instructor Info -->
+<div class="text-center md:text-left">
+  <h3 class="text-2xl sm:text-3xl -mt-8 font-light">Ankit Bhatnagar</h3>
+  <p class="text-sky-400 text-sm font-light">
+    Customer program manager and consultant
+  </p>
+
+  <!-- Always visible paragraph -->
+  <p class="text-white mt-2 leading-relaxed text-sm font-extralight text-justify">
+    Ankit Bhatnagar, an engineer by profession, is driving the growth of
+    Shubhavni SmartFarms, founded by his mother, Shubha Bhatnagar. While
+    her vision led to its creation, Ankit has played a key role in
+    research and development, enhancing aeroponic saffron farming for
+    efficiency and sustainability.
+  </p>
+
+  <!-- Hidden/show on small screens, always visible on md and up -->
+  <div class="md:block">
+    <p
+      id="readMoreContent"
+      class="text-gray-300 mt-2 leading-relaxed text-sm font-extralight text-justify hidden md:block"
+    >
+      Beyond innovation, he leads the company’s business strategy,
+      branding, marketing, and sales, positioning Shubhavni SmartFarms as
+      a trusted source for premium Kashmiri saffron online. His efforts
+      continue to push the company forward, blending technology with
+      agriculture to revolutionize saffron cultivation in India.
+    </p>
+
+    <!-- Buttons visible only on small screens -->
+    <div class="md:hidden">
+      <button
+        id="readMoreBtn"
+        class="text-sky-400 text-sm mt-2 underline"
+        onclick="toggleReadMore(true)"
+      >
+        Read more
+      </button>
+      <button
+        id="readLessBtn"
+        class="text-sky-400 text-sm mt-2 underline hidden"
+        onclick="toggleReadMore(false)"
+      >
+        Read less
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript for toggle -->
+<script>
+  function toggleReadMore(showMore) {
+    const content = document.getElementById('readMoreContent');
+    const btnMore = document.getElementById('readMoreBtn');
+    const btnLess = document.getElementById('readLessBtn');
+
+    if (showMore) {
+      content.classList.remove('hidden');
+      btnMore.classList.add('hidden');
+      btnLess.classList.remove('hidden');
+    } else {
+      content.classList.add('hidden');
+      btnMore.classList.remove('hidden');
+      btnLess.classList.add('hidden');
+    }
+  }
+</script>
+
+      </div>
+    </section>
+
+    <!-- Animation Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerOptions = { root: null, threshold: 0.2 };
+
+        const revealOnScroll = (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.remove("opacity-0", "translate-y-10");
+              observer.unobserve(entry.target);
+            }
+          });
+        };
+
+        const observer = new IntersectionObserver(
+          revealOnScroll,
+          observerOptions
+        );
+        observer.observe(document.getElementById("instructorHeading"));
+        observer.observe(document.getElementById("instructorContent"));
+      });
+    </script>
+
+    
+<!-- About Section -->
+    <section
+      class="bg-black text-white px-6 -mt-10 sm:px-10 md:px-16 lg:px-20 py-10"
+    >
+      <div
+        class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10"
+      >
+        <!-- Left Content -->
+        <div class="md:w-1/2 text-left">
+          <h2 class="text-2xl sm:text-5xl font-bold mb-6">
+            What is Shubhavni Smartfarms?
+          </h2>
+          <p class="text-sm text-justify leading-relaxed">
+            <strong>Shubhavni SmartFarms</strong> is a pioneering agritech
+            company revolutionizing saffron cultivation in India through
+            <strong>advanced aeroponic technology.</strong> By growing saffron
+            in controlled environments, it overcomes traditional farming
+            challenges, ensures a high-quality, pesticide-free yield, and
+            reduces import dependency.
+          </p>
+          <p class="text-sm leading-relaxed mt-4 text-justify">
+            Founded by Shubha Bhatnagar, Shubhavni is also committed to
+            sustainability and rural empowerment, creating job opportunities,
+            especially for women.
+          </p>
+        </div>
+
+        <!-- Right Image -->
+        <div class="md:w-1/2">
+          <img
+            src="IMG_3886.jpeg"
+            alt="Saffron Flower"
+            class="w-full h-auto rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    
+
+
+
+
+    
+
+
+
+
+
+    <!--featured section-->
+    <section class="bg-gradient-to-r from-[#02B4DC] to-[#016176] py-6 px-4 md:px-32 overflow-hidden">
+
+      <h2 class="text-2xl md:text-3xl font-bold text-white text-center mb-5">
+        Our Instructor Has Been Featured In
+      </h2>
+
+      <div class="relative max-w-7xl mx-auto">
+        <div
+          id="carousel"
+          class="flex gap-4 overflow-hidden transition-transform duration-700 ease-in-out"
+        >
+          <!-- Each Card -->
+          <div class="carousel-card">
+
+            <img
+              src="img11.jpeg"
+              alt="News"
+              class="h-80 w-auto mx-auto mb-2 object-contain"
+            />
+
+          </div>
+          <div class="carousel-card">
+
+            <img
+              src="img22.jpeg"
+              alt="News"
+              class=" h-80 w-auto mx-auto mb-2 object-contain"
+            />
+
+          </div>
+          <div class="carousel-card">
+            <img
+              src="img33.jpeg"
+              alt="The Better India"
+              class="h-80 w-auto mx-auto mb-2 object-contain"
+            />
+          </div>
+
+          <div class="carousel-card">
+
+            <img
+              src="img44.jpeg"
+              alt="News"
+              class="h-80 w-auto mx-auto mb-2 object-contain"
+            />
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- Carousel Styles -->
+    <style>
+      .carousel-card {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 1rem;
+        flex: 0 0 100%;
+        max-width: 100%;
+        scroll-snap-align: center;
+        transition: transform 0.4s ease;
+      }
+
+      @media (min-width: 768px) {
+        .carousel-card {
+          flex: 0 0 33.3333%;
+          max-width: 33.3333%;
+          
+        }
+      }
+
+      #carousel {
+        scroll-snap-type: x mandatory;
+        display: flex;
+        overflow-x: scroll;
+        scrollbar-width: none;
+      }
+
+      #carousel::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+
+    <!-- Carousel Logic -->
+    <script>
+      const carousel = document.getElementById("carousel");
+      let cards = carousel.querySelectorAll(".carousel-card");
+      let cardIndex = 0;
+
+      // Clone cards for infinite scroll
+      cards.forEach((card) => {
+        const clone = card.cloneNode(true);
+        carousel.appendChild(clone);
+      });
+
+      function autoScroll() {
+        const cardWidth = cards[0].offsetWidth + 16; // +gap
+        cardIndex++;
+
+        if (cardIndex >= cards.length) {
+          cardIndex = 0;
+          carousel.scrollTo({ left: 0, behavior: "instant" });
+        }
+
+        carousel.scrollTo({
+          left: cardWidth * cardIndex,
+          behavior: "smooth",
+        });
+      }
+
+      setInterval(autoScroll, 3000);
+
+    </script>
+
+
+
+    <!-- Benefits Section -->
+    <section class="py-10 px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-8">
+        Additional Benefits !
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+        <div
+          class="flex items-center gap-3 bg-transparent border shadow-white/30 shadow-lg border-gray-200 rounded-full px-6 py-4 hover:shadow-md transition-all duration-300"
+          style="border-bottom: 3px solid #42c4e6"
+        >
+          <svg
+            class="w-6 h-6 text-[#42C4E6]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+          <span class="text-base md:text-lg font-medium"
+            >Network with fellow Agripreneurs</span
+          >
+        </div>
+
+        <div
+          class="flex items-center gap-3 bg-transparent border shadow-white/30 border-gray-200 rounded-full shadow-lg px-6 py-4 hover:shadow-md transition-all duration-300"
+          style="border-bottom: 3px solid #42c4e6"
+        >
+          <svg
+            class="w-6 h-6 text-[#42C4E6]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+          <span class="text-base md:text-lg font-medium"
+            >Live QnA with Ankit Bhatnagar</span
+          >
+        </div>
+
+        <div
+          class="flex items-center gap-3 bg-transparent border shadow-white/30 border-gray-200 rounded-full shadow-lg px-6 py-4 hover:shadow-md transition-all duration-300"
+          style="border-bottom: 3px solid #42c4e6"
+        >
+          <svg
+            class="w-6 h-6 text-[#42C4E6]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+          <span class="text-base md:text-lg font-medium"
+            >Recording of the sessions</span
+          >
+        </div>
+
+        <div
+          class="flex items-center gap-3 bg-transparent border shadow-white/30 border-gray-200 rounded-full shadow-lg px-6 py-4 hover:shadow-md transition-all duration-300"
+          style="border-bottom: 3px solid #42c4e6"
+        >
+          <svg
+            class="w-6 h-6 text-[#42C4E6]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+          <span class="text-base md:text-lg font-medium"
+            >Session Handouts & Materials</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- AOS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+
+
+
+
+
+
+      <!-- Workshop Section -->
+    <style>
+      @keyframes fadeSlideUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes zoomInLeft {
+        from {
+          opacity: 0;
+          transform: scale(0.8) translateX(40px);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1) translateX(0);
+        }
+      }
+
+      .fade-slide-up {
+        animation: fadeSlideUp 1s ease-out forwards;
+      }
+
+      .zoom-in-left {
+        animation: zoomInLeft 1s ease-out forwards;
+      }
+
+      .scroll-animation {
+        opacity: 0;
+      }
+    </style>
+
+    <!-- Workshop Details Section -->
+    <section
+      class="bg-gradient-to-r from-[#02B4DC] to-[#016176] text-black p-4 sm:p-4 md:p-6 rounded-xl shadow-lg w-[90%] max-w-[1150px] mx-auto mt-0 mb-0 scroll-animation"
+      data-animation="fade-slide-up"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-0 items-center">
+        <!-- Left Content -->
+        <div class="space-y-4">
+          <h2
+            class="text-2xl font-semibold scroll-animation"
+            data-animation="fade-slide-up"
+          >
+            Workshop Details
+          </h2>
+          <p
+            class="text-gray-900 leading-relaxed scroll-animation text-sm"
+            data-animation="fade-slide-up"
+          >
+            Our comprehensive 2-day workshop covers everything you need to know
+            about saffron cultivation, from soil preparation to harvesting
+            techniques.
+          </p>
+
+          <!-- Info Grid -->
+          <div
+            class="space-y-4 scroll-animation"
+            data-animation="fade-slide-up"
+          >
+            <!-- Date -->
+            <div class="flex items-center space-x-4">
+              <div class="bg-black p-1 rounded-xl">
+                <img src="image 6.png" alt="Calendar" class="w-12 h-12" />
+              </div>
+              <div>
+                <p class="font-semibold">Dates</p>
+                <p class="text-gray-700 text-sm sm:text-base">
+                  May 10-11, 2025 | 12:00 PM - 2:00 PM
+                </p>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="flex items-center space-x-4">
+              <div class="bg-black p-1 rounded-lg">
+                <img src="image 4.png" alt="Location" class="w-12 h-12" />
+              </div>
+              <div>
+                <p class="font-semibold">Location</p>
+                <p class="text-gray-700 text-sm sm:text-base">Online</p>
+              </div>
+            </div>
+
+            <!-- Fees -->
+            <div class="flex items-center space-x-4">
+              <div class="bg-black p-1 rounded-lg">
+                <img src="image 5.png" alt="Fees" class="w-12 h-12" />
+              </div>
+              <div>
+                <p class="font-semibold">Fees</p>
+                <p class="text-gray-700 text-sm sm:text-base">₹999/- + GST</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side Image -->
+        <div
+          class="flex justify-center md:justify-end scroll-animation"
+          data-animation="zoom-in-left"
+        >
+          <img
+            src="image 3.png"
+            alt="Saffron Workshop"
+            class="md:rounded-lg drop-shadow-xl rounded-b-3xl rounded-t-3xl rounded-l-3xl rounded-r-3xl sm:rounded-lg w-[300px] py-4 sm:w-[300px] md:w-[600px]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll Animation Script (place at bottom of your HTML or in script.js) -->
+    <script>
+      const scrollElements = document.querySelectorAll(".scroll-animation");
+
+      const scrollObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const anim = entry.target.getAttribute("data-animation");
+              entry.target.classList.add(anim);
+              scrollObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      scrollElements.forEach((el) => scrollObserver.observe(el));
+    </script>
+
+
+<!--FAQ-->
+     <section class="max-w-3xl mx-auto px-4 py-10">
+  <h2 class="mb:text-3xl text-xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+
+  <div class="space-y-4" id="faq">
+
+    <!-- FAQ Item -->
+    <div class="border border-blue-300 rounded-lg overflow-hidden">
+      <button
+        class="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-lg font-medium text-white focus:outline-none"
+        onclick="toggleFAQ(this)"
+      >
+        Where and when will you conduct the workshop?
+        <span class="text-blue-400 text-2xl transition-transform duration-300 transform">+</span>
+      </button>
+      <div class="h-0 overflow-hidden transition-all duration-500 text-sm md:text-lg ease-in-out px-6 text-cyan-600">
+        <div class="py-4">
+          The workshop will be conducted <strong>online</strong> on <strong>Zoom/Zoho</strong> on 9th & 10th Nov from 12:00 to 1:30 PM.
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat for each FAQ item -->
+    <div class="border border-blue-300 rounded-lg overflow-hidden">
+      <button class="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-lg font-medium text-white focus:outline-none" onclick="toggleFAQ(this)">
+        Will I get the recording of the workshop?
+        <span class="text-blue-400 text-2xl transition-transform duration-300 transform">+</span>
+      </button>
+      <div class="h-0 overflow-hidden transition-all duration-500 text-sm md:text-lg ease-in-out px-6 text-cyan-600">
+        <div class="py-4">
+          <strong>Yes</strong>, Once the workshop is over, we will share the recorded session along with the handouts/PPTs used during the workshop.
+        </div>
+      </div>
+    </div>
+
+    <div class="border border-blue-300 rounded-lg overflow-hidden">
+      <button class="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-lg font-medium text-white focus:outline-none" onclick="toggleFAQ(this)">
+        How can I ask questions during the workshop?
+        <span class="text-blue-400 text-2xl transition-transform duration-300 transform">+</span>
+      </button>
+      <div class="h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm md:text-lg px-6 text-cyan-600">
+        <div class="py-4">
+          The host will unmute you during the workshop and you can directly ask your question to the instructor.
+        </div>
+      </div>
+    </div>
+
+    <div class="border border-blue-300 rounded-lg overflow-hidden">
+      <button class="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-lg font-medium text-white focus:outline-none" onclick="toggleFAQ(this)">
+        Is the payment refundable?
+        <span class="text-blue-400 text-2xl transition-transform duration-300 transform">+</span>
+      </button>
+      <div class="h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-sm md:text-lg text-cyan-600">
+        <div class="py-4">
+          <strong>No</strong>. However, we advise you to go through our landing page meticulously. For any clarification, click the WhatsApp icon to message us.
+        </div>
+      </div>
+    </div>
+
+    <div class="border border-blue-300 rounded-lg overflow-hidden">
+      <button class="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-lg font-medium text-white focus:outline-none" onclick="toggleFAQ(this)">
+        How will I get the meeting link of the workshop?
+        <span class="text-blue-400 text-2xl transition-transform duration-300 transform">+</span>
+      </button>
+      <div class="h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-sm md:text-lg text-cyan-600">
+        <div class="py-4">
+          The workshop joining link will be shared on your registered email and in the exclusive WhatsApp group <strong>2 days prior</strong> to the workshop.
+        </div>
+      </div>
+    </div>
+
+    <div class="border border-blue-300 rounded-lg overflow-hidden">
+      <button class="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-lg font-medium text-white focus:outline-none" onclick="toggleFAQ(this)">
+        I made the payment but didn’t receive confirmation email?
+        <span class="text-blue-400 text-2xl transition-transform duration-300 transform">+</span>
+      </button>
+      <div class="h-0 overflow-hidden transition-all duration-500 ease-in-out px-6 text-sm md:text-lg text-cyan-600">
+        <div class="py-4">
+          Don’t worry. <strong>Drop an email</strong> at <a href="mailto:workshop@startuppedia.in" class="text-blue-600 font-medium">workshop@startuppedia.in</a> with your name, registered email, and payment screenshot.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function toggleFAQ(button) {
+    const content = button.nextElementSibling;
+    const icon = button.querySelector('span');
+    const isOpen = content.style.height && content.style.height !== '0px';
+
+    // Close all
+    document.querySelectorAll('#faq > div > div').forEach(el => {
+      el.style.height = '0px';
+    });
+
+    document.querySelectorAll('#faq button span').forEach(el => {
+      el.classList.remove('rotate-45');
+      el.classList.add('rotate-0');
+      el.textContent = '+';
+    });
+
+    // Open current if it was closed
+    if (!isOpen) {
+      const innerContent = content.querySelector('div');
+      content.style.height = innerContent.scrollHeight + 'px';
+      icon.classList.remove('rotate-0');
+      icon.classList.add('rotate-45');
+      icon.textContent = '−';
+    }
+  }
+</script>
+
+
+
+
+
+    <!--CountDown section-->
+    <section class="py-8 md:-mt-10 -mt-10 not-odd:px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 leading-snug">
+        Limited Seats,<br class="md:hidden" />
+        Register Now !
+      </h2>
+
+      <div class="flex justify-center items-center px-3 gap-4 md:gap-6 overflow-x-auto no-scrollbar flex-nowrap">
+        <!-- Countdown Box -->
+        <div class="countdown-box">
+          <span id="days" class="countdown-value">00</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <div class="colon">:</div>
+
+        <div class="countdown-box">
+          <span id="hours" class="countdown-value">00</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="colon">:</div>
+
+        <div class="countdown-box">
+          <span id="minutes" class="countdown-value">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="colon">:</div>
+
+        <div class="countdown-box">
+          <span id="seconds" class="countdown-value">00</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Styling -->
+    <style>
+      .countdown-box {
+  background: white;
+  color: black;
+  padding: 0.75rem 1rem;  /* Smaller Padding */
+  border-radius: 0.75rem;
+  border: 2px solid #60a5fa;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18vw;  /* Smaller Width */
+  min-width: 55px;
+  max-width: 75px;
+  flex: 1 1 auto;
+}
+
+.countdown-value {
+  font-size: 1rem;  /* Smaller Font */
+  font-weight: 700;
+}
+
+.countdown-label {
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+.colon {
+  font-size: 1.5rem;  /* Smaller Colon */
+  font-weight: 700;
+  color: #60a5fa;
+}
+
+@media (min-width: 768px) {
+  .countdown-box {
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    width: auto;
+    min-width: 100px;
+    max-width: 130px;
+  }
+
+  .countdown-value {
+    font-size: 2rem;
+  }
+
+  .countdown-label {
+    font-size: 0.9rem;
+  }
+
+  .colon {
+    font-size: 2rem;
+  }
+}
+    </style>
+
+    <!-- JavaScript -->
+    <script>
+      const targetDate = new Date("2025-05-11T12:00:00").getTime();
+
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        const d = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const h = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const s = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").textContent = d
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("hours").textContent = h
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("minutes").textContent = m
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("seconds").textContent = s
+          .toString()
+          .padStart(2, "0");
+
+        if (distance < 0) {
+          clearInterval(timer);
+          document
+            .querySelectorAll(".countdown-value")
+            .forEach((el) => (el.textContent = "00"));
+        }
+      }
+
+      const timer = setInterval(updateCountdown, 1000);
+      updateCountdown();
+    </script>
+
+
+
+
+
+    <!-- Sticky Register Button (Visible on small screens only) -->
+<div class="fixed bottom-4 left-0 right-0 z-50 md:hidden px-16">
+  <a
+    href="https://payments.cashfree.com/forms/startuppedia" target="_blank" rel="noopener noreferrer"
+    class="block bg-green-500 text-black text-center font-medium py-2 rounded-full shadow-lg hover:bg-green-500 transition duration-300 animate-beat relative"
+  >
+    <span class="relative z-10">Register for only Rs 999/- +GST</span>
+      </a>
+</div>
+
+<!-- Tailwind Custom Animation (you can place this inside a <style> tag or your CSS file) -->
+<style>
+  @keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.07); }
+  }
+
+  .animate-beat {
+    animation: beat 1.2s infinite ease-in-out;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s infinite ease-in-out;
+  }
+</style>
+
+
+
+
+
+
+    <!-- Normal Register Button for larger screens (optional) -->
+    <div class="hidden md:flex justify-center mb-10">
+      <a
+        href="https://payments.cashfree.com/forms/startuppedia" target="_blank" rel="noopener noreferrer"
+        class="bg-sky-400 text-white text-lg font-semibold px-8 py-4 rounded-full shadow-lg  hover:bg-sky-500 transition duration-300"
+      >
+        Register Now For only Rs 999/- +GST
+      </a>
+    </div>
+
+
+
+
+
+    <!-- Footer Section -->
+<footer class="bg-gray-900 text-white py-10 px-4">
+  <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-10 justify-items-start">
+    <!-- Left: Logo & Social (spanning both columns on small screens) -->
+    <div class="col-span-2 md:col-span-1">
+      <div class="flex items-center space-x-2 mb-0 -mt-10">
+        <img src="logo pedia .... new size-01.png" alt="Logo" class="h-32" />
+      </div>
+      <p class="text-gray-300 text-sm mb-10 -mt-10">
+        All about Startups, SMBs and MSMEs
+      </p>
+      <div class="flex space-x-3">
+        <a href="#"><img src="icons8-instagram.svg" class="h-6 w-6" /></a>
+        <a href="#"><img src="icons8-facebook.svg" class="h-6 w-6" /></a>
+        <a href="#"><img src="icons8-youtube.svg" class="h-6 w-6" /></a>
+        <a href="#"><img src="icons8-x.svg" class="h-6 w-6" /></a>
+      </div>
+    </div>
+
+    <!-- Middle: Company Links -->
+    <div>
+      <h3 class="text-sky-400 font-bold mb-3">Company</h3>
+      <ul class="space-y-2 text-gray-300 text-sm">
+        <li><a href="https://startuppedia.in/about-us"target="_blank" rel="noopener noreferrer">About Us</a></li>
+        <li><a href="https://startuppedia.in/contact-us"target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+        <li><a href="https://startuppedia.in/refund-policy"target="_blank" rel="noopener noreferrer">Refund Policy</a></li>
+        <li><a href="https://startuppedia.in/privacy-policy"target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+        <li><a href="https://startuppedia.in/terms-conditions"target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- Right: Important Links -->
+    <div>
+      <h3 class="text-sky-400 font-bold mb-3">Important Links</h3>
+      <ul class="space-y-2 text-gray-300 text-sm">
+        <li><a href="https://workshop.startuppedia.in/"target="_blank">Workshops</a></li>
+        <li>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScLUXsyCErGHsw667wqVGW6NzZ34re9xhTS7UfjPZdAZuMIbg/viewform"target="_blank">
+            Advertise With Us</a
+          >
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom line -->
+  <div class="border-t border-gray-700 mt-10 pt-4 text-center text-xs text-gray-500">
+    © 2024 RFJ Media Pvt Ltd. All Rights Reserved
+  </div>
+</footer>
+
+    
+  </body>
+</html>
